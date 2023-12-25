@@ -45,9 +45,7 @@ class ResultBar extends React.Component {
     }
 
     render() { 
-        console.log(this.state);
-        console.log(this.props.location);
-        let locationDisplay = "---";
+            let locationDisplay = "---";
         let tempDisplay = null;
         let iconSrc = null;
         if (!this.state.weatherData && this.props.location) {
